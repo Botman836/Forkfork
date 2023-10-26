@@ -28,8 +28,11 @@
 
   // text input area
   div[class^="channelTextArea"] {
-    div[class^="buttons"] * {
-      color: var(--interactive-normal) !important;
+    div[class^="buttons"] {
+      button,
+      div {
+        color: var(--interactive-normal) !important;
+      }
     }
   }
 
@@ -230,7 +233,8 @@ div[class^="channelTextArea"] button[class*="emojiButton_"] {
   div[class^="inner"] {
     border-color: $crust;
 
-    * {
+    div,
+    strong {
       color: $crust !important;
     }
   }

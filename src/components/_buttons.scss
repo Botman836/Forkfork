@@ -127,7 +127,8 @@ div[role="radio"][class*="selected"] {
 [class*="topGuildEmojiBadge_"] {
   background: linear-gradient(268.26deg, $peach, $red 102.45%);
 
-  * {
+  svg,
+  div {
     color: $crust !important;
   }
 }
@@ -135,7 +136,8 @@ div[role="radio"][class*="selected"] {
 [class*="newlyAddedBadge_"] {
   background: linear-gradient(268.26deg, $teal, $green 102.45%);
 
-  * {
+  svg,
+  div {
     color: $crust !important;
   }
 }

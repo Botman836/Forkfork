@@ -228,8 +228,11 @@ div[class^="contentRegion"] {
       color: var(--text-muted);
     }
 
-    div[class*="activeGame_"][class*="nowPlaying"] * {
-      color: $crust;
+    div[class*="activeGame_"][class*="nowPlaying"] {
+      div,
+      input:not(:hover) {
+        color: $crust;
+      }
 
       svg > path {
         fill: $crust !important;
